@@ -9,25 +9,67 @@
 /* Begin PBXBuildFile section */
 		4C89F5662A1C36D500D7E231 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89F5652A1C36D500D7E231 /* AppDelegate.swift */; };
 		4C89F5682A1C36D500D7E231 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89F5672A1C36D500D7E231 /* SceneDelegate.swift */; };
-		4C89F56A2A1C36D500D7E231 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89F5692A1C36D500D7E231 /* ViewController.swift */; };
-		4C89F56D2A1C36D500D7E231 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C89F56B2A1C36D500D7E231 /* Main.storyboard */; };
+		4C89F56A2A1C36D500D7E231 /* TelaAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89F5692A1C36D500D7E231 /* TelaAViewController.swift */; };
 		4C89F56F2A1C36DB00D7E231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C89F56E2A1C36DB00D7E231 /* Assets.xcassets */; };
 		4C89F5722A1C36DB00D7E231 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C89F5702A1C36DB00D7E231 /* LaunchScreen.storyboard */; };
+		4C89F57A2A1C38B200D7E231 /* TelaAViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89F5792A1C38B200D7E231 /* TelaAViewModel.swift */; };
+		4C89F57E2A1D50A900D7E231 /* TelaBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89F57D2A1D50A900D7E231 /* TelaBViewController.swift */; };
+		4C89F5802A1D50B100D7E231 /* TelaBViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89F57F2A1D50B100D7E231 /* TelaBViewModel.swift */; };
+		4C89F5822A1D5D5B00D7E231 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89F5812A1D5D5B00D7E231 /* Utils.swift */; };
+		4C89F5842A1D5D6B00D7E231 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89F5832A1D5D6B00D7E231 /* MessageModel.swift */; };
+		DA124D6D2A214F4A00166839 /* SpyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA124D6C2A214F4A00166839 /* SpyNavigationController.swift */; };
+		DABC41732A1D827000B0F55C /* SampleTest1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABC41722A1D827000B0F55C /* SampleTest1Tests.swift */; };
+		DABC417A2A1D887600B0F55C /* TelaBViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABC41792A1D887500B0F55C /* TelaBViewControllerTests.swift */; };
+		DABC41802A1D894200B0F55C /* TelaAViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABC417F2A1D894200B0F55C /* TelaAViewControllerTests.swift */; };
+		DAC7EF4B2A1FE48B0057BC4C /* TelaBViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC7EF4A2A1FE48B0057BC4C /* TelaBViewModelTests.swift */; };
+		DAC7EF4D2A1FE8E70057BC4C /* TelaBViewModelOutputSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC7EF4C2A1FE8E70057BC4C /* TelaBViewModelOutputSpy.swift */; };
+		DAE4EA322A1E7E2800DD0F39 /* TelaAViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE4EA312A1E7E2800DD0F39 /* TelaAViewModelTests.swift */; };
+		DAE4EA342A1E9C4400DD0F39 /* TelaAViewModelOutputSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE4EA332A1E9C4400DD0F39 /* TelaAViewModelOutputSpy.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DABC41742A1D827000B0F55C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C89F55A2A1C36D500D7E231 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C89F5612A1C36D500D7E231;
+			remoteInfo = SampleTest1;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4C89F5622A1C36D500D7E231 /* SampleTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C89F5652A1C36D500D7E231 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C89F5672A1C36D500D7E231 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4C89F5692A1C36D500D7E231 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4C89F56C2A1C36D500D7E231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C89F5692A1C36D500D7E231 /* TelaAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaAViewController.swift; sourceTree = "<group>"; };
 		4C89F56E2A1C36DB00D7E231 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C89F5712A1C36DB00D7E231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C89F5732A1C36DB00D7E231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C89F5792A1C38B200D7E231 /* TelaAViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaAViewModel.swift; sourceTree = "<group>"; };
+		4C89F57D2A1D50A900D7E231 /* TelaBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaBViewController.swift; sourceTree = "<group>"; };
+		4C89F57F2A1D50B100D7E231 /* TelaBViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaBViewModel.swift; sourceTree = "<group>"; };
+		4C89F5812A1D5D5B00D7E231 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		4C89F5832A1D5D6B00D7E231 /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		DA124D6C2A214F4A00166839 /* SpyNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyNavigationController.swift; sourceTree = "<group>"; };
+		DABC41702A1D827000B0F55C /* SampleTest1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleTest1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABC41722A1D827000B0F55C /* SampleTest1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTest1Tests.swift; sourceTree = "<group>"; };
+		DABC41792A1D887500B0F55C /* TelaBViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaBViewControllerTests.swift; sourceTree = "<group>"; };
+		DABC417F2A1D894200B0F55C /* TelaAViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaAViewControllerTests.swift; sourceTree = "<group>"; };
+		DAC7EF4A2A1FE48B0057BC4C /* TelaBViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaBViewModelTests.swift; sourceTree = "<group>"; };
+		DAC7EF4C2A1FE8E70057BC4C /* TelaBViewModelOutputSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaBViewModelOutputSpy.swift; sourceTree = "<group>"; };
+		DAE4EA312A1E7E2800DD0F39 /* TelaAViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaAViewModelTests.swift; sourceTree = "<group>"; };
+		DAE4EA332A1E9C4400DD0F39 /* TelaAViewModelOutputSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaAViewModelOutputSpy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4C89F55F2A1C36D500D7E231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABC416D2A1D827000B0F55C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				4C89F5642A1C36D500D7E231 /* SampleTest1 */,
+				DABC41712A1D827000B0F55C /* SampleTest1Tests */,
 				4C89F5632A1C36D500D7E231 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				4C89F5622A1C36D500D7E231 /* SampleTest1.app */,
+				DABC41702A1D827000B0F55C /* SampleTest1Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +100,90 @@
 		4C89F5642A1C36D500D7E231 /* SampleTest1 */ = {
 			isa = PBXGroup;
 			children = (
+				4C89F57C2A1D505900D7E231 /* TelaB */,
+				4C89F57B2A1D4FFC00D7E231 /* TelaA */,
 				4C89F5652A1C36D500D7E231 /* AppDelegate.swift */,
 				4C89F5672A1C36D500D7E231 /* SceneDelegate.swift */,
-				4C89F5692A1C36D500D7E231 /* ViewController.swift */,
-				4C89F56B2A1C36D500D7E231 /* Main.storyboard */,
 				4C89F56E2A1C36DB00D7E231 /* Assets.xcassets */,
 				4C89F5702A1C36DB00D7E231 /* LaunchScreen.storyboard */,
 				4C89F5732A1C36DB00D7E231 /* Info.plist */,
+				4C89F5812A1D5D5B00D7E231 /* Utils.swift */,
 			);
 			path = SampleTest1;
+			sourceTree = "<group>";
+		};
+		4C89F57B2A1D4FFC00D7E231 /* TelaA */ = {
+			isa = PBXGroup;
+			children = (
+				4C89F5692A1C36D500D7E231 /* TelaAViewController.swift */,
+				4C89F5792A1C38B200D7E231 /* TelaAViewModel.swift */,
+			);
+			path = TelaA;
+			sourceTree = "<group>";
+		};
+		4C89F57C2A1D505900D7E231 /* TelaB */ = {
+			isa = PBXGroup;
+			children = (
+				4C89F57D2A1D50A900D7E231 /* TelaBViewController.swift */,
+				4C89F57F2A1D50B100D7E231 /* TelaBViewModel.swift */,
+				4C89F5832A1D5D6B00D7E231 /* MessageModel.swift */,
+			);
+			path = TelaB;
+			sourceTree = "<group>";
+		};
+		DA124D6B2A214F2300166839 /* Doubles */ = {
+			isa = PBXGroup;
+			children = (
+				DA124D6C2A214F4A00166839 /* SpyNavigationController.swift */,
+			);
+			path = Doubles;
+			sourceTree = "<group>";
+		};
+		DABC41712A1D827000B0F55C /* SampleTest1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DA124D6B2A214F2300166839 /* Doubles */,
+				DABC417C2A1D88E900B0F55C /* TelaA */,
+				DABC417B2A1D888600B0F55C /* TelaB */,
+				DABC41722A1D827000B0F55C /* SampleTest1Tests.swift */,
+			);
+			path = SampleTest1Tests;
+			sourceTree = "<group>";
+		};
+		DABC417B2A1D888600B0F55C /* TelaB */ = {
+			isa = PBXGroup;
+			children = (
+				DAC7EF4E2A200E310057BC4C /* Doubles */,
+				DABC41792A1D887500B0F55C /* TelaBViewControllerTests.swift */,
+				DAC7EF4A2A1FE48B0057BC4C /* TelaBViewModelTests.swift */,
+			);
+			path = TelaB;
+			sourceTree = "<group>";
+		};
+		DABC417C2A1D88E900B0F55C /* TelaA */ = {
+			isa = PBXGroup;
+			children = (
+				DAC7EF4F2A2011A80057BC4C /* Doubles */,
+				DABC417F2A1D894200B0F55C /* TelaAViewControllerTests.swift */,
+				DAE4EA312A1E7E2800DD0F39 /* TelaAViewModelTests.swift */,
+			);
+			path = TelaA;
+			sourceTree = "<group>";
+		};
+		DAC7EF4E2A200E310057BC4C /* Doubles */ = {
+			isa = PBXGroup;
+			children = (
+				DAC7EF4C2A1FE8E70057BC4C /* TelaBViewModelOutputSpy.swift */,
+			);
+			path = Doubles;
+			sourceTree = "<group>";
+		};
+		DAC7EF4F2A2011A80057BC4C /* Doubles */ = {
+			isa = PBXGroup;
+			children = (
+				DAE4EA332A1E9C4400DD0F39 /* TelaAViewModelOutputSpy.swift */,
+			);
+			path = Doubles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +206,24 @@
 			productReference = 4C89F5622A1C36D500D7E231 /* SampleTest1.app */;
 			productType = "com.apple.product-type.application";
 		};
+		DABC416F2A1D827000B0F55C /* SampleTest1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABC41782A1D827000B0F55C /* Build configuration list for PBXNativeTarget "SampleTest1Tests" */;
+			buildPhases = (
+				DABC416C2A1D827000B0F55C /* Sources */,
+				DABC416D2A1D827000B0F55C /* Frameworks */,
+				DABC416E2A1D827000B0F55C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DABC41752A1D827000B0F55C /* PBXTargetDependency */,
+			);
+			name = SampleTest1Tests;
+			productName = SampleTest1Tests;
+			productReference = DABC41702A1D827000B0F55C /* SampleTest1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +236,10 @@
 				TargetAttributes = {
 					4C89F5612A1C36D500D7E231 = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					DABC416F2A1D827000B0F55C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4C89F5612A1C36D500D7E231;
 					};
 				};
 			};
@@ -116,6 +257,7 @@
 			projectRoot = "";
 			targets = (
 				4C89F5612A1C36D500D7E231 /* SampleTest1 */,
+				DABC416F2A1D827000B0F55C /* SampleTest1Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -127,7 +269,13 @@
 			files = (
 				4C89F5722A1C36DB00D7E231 /* LaunchScreen.storyboard in Resources */,
 				4C89F56F2A1C36DB00D7E231 /* Assets.xcassets in Resources */,
-				4C89F56D2A1C36D500D7E231 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABC416E2A1D827000B0F55C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +286,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C89F56A2A1C36D500D7E231 /* ViewController.swift in Sources */,
+				4C89F57E2A1D50A900D7E231 /* TelaBViewController.swift in Sources */,
+				4C89F56A2A1C36D500D7E231 /* TelaAViewController.swift in Sources */,
 				4C89F5662A1C36D500D7E231 /* AppDelegate.swift in Sources */,
+				4C89F5842A1D5D6B00D7E231 /* MessageModel.swift in Sources */,
+				4C89F5822A1D5D5B00D7E231 /* Utils.swift in Sources */,
+				4C89F57A2A1C38B200D7E231 /* TelaAViewModel.swift in Sources */,
 				4C89F5682A1C36D500D7E231 /* SceneDelegate.swift in Sources */,
+				4C89F5802A1D50B100D7E231 /* TelaBViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABC416C2A1D827000B0F55C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA124D6D2A214F4A00166839 /* SpyNavigationController.swift in Sources */,
+				DAC7EF4D2A1FE8E70057BC4C /* TelaBViewModelOutputSpy.swift in Sources */,
+				DABC41802A1D894200B0F55C /* TelaAViewControllerTests.swift in Sources */,
+				DAC7EF4B2A1FE48B0057BC4C /* TelaBViewModelTests.swift in Sources */,
+				DABC41732A1D827000B0F55C /* SampleTest1Tests.swift in Sources */,
+				DAE4EA322A1E7E2800DD0F39 /* TelaAViewModelTests.swift in Sources */,
+				DABC417A2A1D887600B0F55C /* TelaBViewControllerTests.swift in Sources */,
+				DAE4EA342A1E9C4400DD0F39 /* TelaAViewModelOutputSpy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		4C89F56B2A1C36D500D7E231 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C89F56C2A1C36D500D7E231 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		DABC41752A1D827000B0F55C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C89F5612A1C36D500D7E231 /* SampleTest1 */;
+			targetProxy = DABC41742A1D827000B0F55C /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		4C89F5702A1C36DB00D7E231 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +460,6 @@
 				INFOPLIST_FILE = SampleTest1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +487,6 @@
 				INFOPLIST_FILE = SampleTest1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -333,6 +499,40 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DABC41762A1D827000B0F55C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = doug.SampleTest1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleTest1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SampleTest1";
+			};
+			name = Debug;
+		};
+		DABC41772A1D827000B0F55C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = doug.SampleTest1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleTest1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SampleTest1";
 			};
 			name = Release;
 		};
@@ -353,6 +553,15 @@
 			buildConfigurations = (
 				4C89F5772A1C36DB00D7E231 /* Debug */,
 				4C89F5782A1C36DB00D7E231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DABC41782A1D827000B0F55C /* Build configuration list for PBXNativeTarget "SampleTest1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABC41762A1D827000B0F55C /* Debug */,
+				DABC41772A1D827000B0F55C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
