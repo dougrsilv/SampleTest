@@ -18,7 +18,6 @@
 		4C89F5822A1D5D5B00D7E231 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89F5812A1D5D5B00D7E231 /* Utils.swift */; };
 		4C89F5842A1D5D6B00D7E231 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89F5832A1D5D6B00D7E231 /* MessageModel.swift */; };
 		DA124D6D2A214F4A00166839 /* SpyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA124D6C2A214F4A00166839 /* SpyNavigationController.swift */; };
-		DABC41732A1D827000B0F55C /* SampleTest1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABC41722A1D827000B0F55C /* SampleTest1Tests.swift */; };
 		DABC417A2A1D887600B0F55C /* TelaBViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABC41792A1D887500B0F55C /* TelaBViewControllerTests.swift */; };
 		DABC41802A1D894200B0F55C /* TelaAViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABC417F2A1D894200B0F55C /* TelaAViewControllerTests.swift */; };
 		DAC7EF4B2A1FE48B0057BC4C /* TelaBViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC7EF4A2A1FE48B0057BC4C /* TelaBViewModelTests.swift */; };
@@ -52,7 +51,6 @@
 		4C89F5832A1D5D6B00D7E231 /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
 		DA124D6C2A214F4A00166839 /* SpyNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyNavigationController.swift; sourceTree = "<group>"; };
 		DABC41702A1D827000B0F55C /* SampleTest1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleTest1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DABC41722A1D827000B0F55C /* SampleTest1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTest1Tests.swift; sourceTree = "<group>"; };
 		DABC41792A1D887500B0F55C /* TelaBViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaBViewControllerTests.swift; sourceTree = "<group>"; };
 		DABC417F2A1D894200B0F55C /* TelaAViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaAViewControllerTests.swift; sourceTree = "<group>"; };
 		DAC7EF4A2A1FE48B0057BC4C /* TelaBViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaBViewModelTests.swift; sourceTree = "<group>"; };
@@ -145,7 +143,6 @@
 				DA124D6B2A214F2300166839 /* Doubles */,
 				DABC417C2A1D88E900B0F55C /* TelaA */,
 				DABC417B2A1D888600B0F55C /* TelaB */,
-				DABC41722A1D827000B0F55C /* SampleTest1Tests.swift */,
 			);
 			path = SampleTest1Tests;
 			sourceTree = "<group>";
@@ -305,7 +302,6 @@
 				DAC7EF4D2A1FE8E70057BC4C /* TelaBViewModelOutputSpy.swift in Sources */,
 				DABC41802A1D894200B0F55C /* TelaAViewControllerTests.swift in Sources */,
 				DAC7EF4B2A1FE48B0057BC4C /* TelaBViewModelTests.swift in Sources */,
-				DABC41732A1D827000B0F55C /* SampleTest1Tests.swift in Sources */,
 				DAE4EA322A1E7E2800DD0F39 /* TelaAViewModelTests.swift in Sources */,
 				DABC417A2A1D887600B0F55C /* TelaBViewControllerTests.swift in Sources */,
 				DAE4EA342A1E9C4400DD0F39 /* TelaAViewModelOutputSpy.swift in Sources */,
