@@ -11,11 +11,11 @@ import Foundation
 final class TelaBViewModelOutputSpy: TelaBViewModelOutput {
     
     private(set) var didShowMessageCalled: Bool = false
-    private(set) var didTextMessage: String = ""
-    private(set) var didLettersCount: Int = 0
-    private(set) var didWordsCount: Int = 0
-    private(set) var didUpperCount: Int = 0
-    private(set) var didLowerCount: Int = 0
+    private(set) var didTextMessage: String?
+    private(set) var didLettersCount: Int?
+    private(set) var didWordsCount: Int?
+    private(set) var didUpperCount: Int?
+    private(set) var didLowerCount: Int?
     
     func showMessage(_ message: MessageModel) {
         didShowMessageCalled = true
