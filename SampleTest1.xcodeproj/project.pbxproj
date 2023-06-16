@@ -26,6 +26,9 @@
 		DAC7EF4D2A1FE8E70057BC4C /* TelaBViewModelOutputSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC7EF4C2A1FE8E70057BC4C /* TelaBViewModelOutputSpy.swift */; };
 		DACDE87D2A2FDED40017536E /* TelaBViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACDE87C2A2FDED40017536E /* TelaBViewControllerTests.swift */; };
 		DACDE87F2A2FDF4D0017536E /* TelaBViewModelInputSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACDE87E2A2FDF4D0017536E /* TelaBViewModelInputSpy.swift */; };
+		DAE4DCA92A3CB85F003FF2C0 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE4DCA82A3CB85F003FF2C0 /* AppCoordinator.swift */; };
+		DAE4DCAB2A3CBDF6003FF2C0 /* TelaACoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE4DCAA2A3CBDF6003FF2C0 /* TelaACoordinator.swift */; };
+		DAE4DCAD2A3CD29F003FF2C0 /* TelaBCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE4DCAC2A3CD29F003FF2C0 /* TelaBCoordinator.swift */; };
 		DAE4EA322A1E7E2800DD0F39 /* TelaAViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE4EA312A1E7E2800DD0F39 /* TelaAViewModelTests.swift */; };
 		DAE4EA342A1E9C4400DD0F39 /* TelaAViewModelOutputSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE4EA332A1E9C4400DD0F39 /* TelaAViewModelOutputSpy.swift */; };
 		FD14DF527AE179E4B8D2460E /* Pods_SampleTest1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D1EFA92D2E2D1E95F44DB5 /* Pods_SampleTest1Tests.framework */; };
@@ -68,6 +71,9 @@
 		DAC7EF4C2A1FE8E70057BC4C /* TelaBViewModelOutputSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaBViewModelOutputSpy.swift; sourceTree = "<group>"; };
 		DACDE87C2A2FDED40017536E /* TelaBViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaBViewControllerTests.swift; sourceTree = "<group>"; };
 		DACDE87E2A2FDF4D0017536E /* TelaBViewModelInputSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaBViewModelInputSpy.swift; sourceTree = "<group>"; };
+		DAE4DCA82A3CB85F003FF2C0 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		DAE4DCAA2A3CBDF6003FF2C0 /* TelaACoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaACoordinator.swift; sourceTree = "<group>"; };
+		DAE4DCAC2A3CD29F003FF2C0 /* TelaBCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaBCoordinator.swift; sourceTree = "<group>"; };
 		DAE4EA312A1E7E2800DD0F39 /* TelaAViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaAViewModelTests.swift; sourceTree = "<group>"; };
 		DAE4EA332A1E9C4400DD0F39 /* TelaAViewModelOutputSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaAViewModelOutputSpy.swift; sourceTree = "<group>"; };
 		F99932FD26D38B16C75984C4 /* Pods-SampleTest1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleTest1Tests.debug.xcconfig"; path = "Target Support Files/Pods-SampleTest1Tests/Pods-SampleTest1Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +131,7 @@
 		4C89F5642A1C36D500D7E231 /* SampleTest1 */ = {
 			isa = PBXGroup;
 			children = (
+				DAE4DCA72A3CB827003FF2C0 /* Coordinator */,
 				4C89F57C2A1D505900D7E231 /* TelaB */,
 				4C89F57B2A1D4FFC00D7E231 /* TelaA */,
 				4C89F5652A1C36D500D7E231 /* AppDelegate.swift */,
@@ -142,6 +149,7 @@
 			children = (
 				4C89F5692A1C36D500D7E231 /* TelaAViewController.swift */,
 				4C89F5792A1C38B200D7E231 /* TelaAViewModel.swift */,
+				DAE4DCAA2A3CBDF6003FF2C0 /* TelaACoordinator.swift */,
 			);
 			path = TelaA;
 			sourceTree = "<group>";
@@ -152,6 +160,7 @@
 				4C89F57D2A1D50A900D7E231 /* TelaBViewController.swift */,
 				4C89F57F2A1D50B100D7E231 /* TelaBViewModel.swift */,
 				4C89F5832A1D5D6B00D7E231 /* MessageModel.swift */,
+				DAE4DCAC2A3CD29F003FF2C0 /* TelaBCoordinator.swift */,
 			);
 			path = TelaB;
 			sourceTree = "<group>";
@@ -246,6 +255,14 @@
 				DAE4EA332A1E9C4400DD0F39 /* TelaAViewModelOutputSpy.swift */,
 			);
 			path = Doubles;
+			sourceTree = "<group>";
+		};
+		DAE4DCA72A3CB827003FF2C0 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				DAE4DCA82A3CB85F003FF2C0 /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -419,8 +436,11 @@
 				4C89F56A2A1C36D500D7E231 /* TelaAViewController.swift in Sources */,
 				4C89F5662A1C36D500D7E231 /* AppDelegate.swift in Sources */,
 				4C89F5842A1D5D6B00D7E231 /* MessageModel.swift in Sources */,
+				DAE4DCAB2A3CBDF6003FF2C0 /* TelaACoordinator.swift in Sources */,
+				DAE4DCAD2A3CD29F003FF2C0 /* TelaBCoordinator.swift in Sources */,
 				4C89F5822A1D5D5B00D7E231 /* Utils.swift in Sources */,
 				4C89F57A2A1C38B200D7E231 /* TelaAViewModel.swift in Sources */,
+				DAE4DCA92A3CB85F003FF2C0 /* AppCoordinator.swift in Sources */,
 				4C89F5682A1C36D500D7E231 /* SceneDelegate.swift in Sources */,
 				4C89F5802A1D50B100D7E231 /* TelaBViewModel.swift in Sources */,
 			);
