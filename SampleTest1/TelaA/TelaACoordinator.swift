@@ -9,7 +9,7 @@ import UIKit
 
 final class TelaACoordinator: Coordinator {
     
-    private(set) var childCoordinators: [Coordinator] = []
+    //private(set) var childCoordinators: [Coordinator] = []
     private let navigationController: UINavigationController
     
     init(navigationController: UINavigationController) {
@@ -26,7 +26,7 @@ final class TelaACoordinator: Coordinator {
     func startTelaB(parameter: String) {
         let telaBCoordinator = TelaBCoordinator(navigationController: navigationController,
                                                 parameter: parameter)
-        childCoordinators.append(telaBCoordinator)
+        //childCoordinators.append(telaBCoordinator)
         telaBCoordinator.start()
     }
 }

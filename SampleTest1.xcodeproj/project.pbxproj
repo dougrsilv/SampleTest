@@ -22,6 +22,8 @@
 		DA626DB12A296D450085166A /* TelaAViewControllerTestsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA626DB02A296D450085166A /* TelaAViewControllerTestsUI.swift */; };
 		DABC41802A1D894200B0F55C /* TelaAViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABC417F2A1D894200B0F55C /* TelaAViewControllerTests.swift */; };
 		DABE4D342A2B71CF003AC7E1 /* TelaBViewControllerTestsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABE4D332A2B71CF003AC7E1 /* TelaBViewControllerTestsUI.swift */; };
+		DAC1BAD52A3E9185003B0F8C /* MockCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC1BAD42A3E9185003B0F8C /* MockCoordinator.swift */; };
+		DAC1BAD82A3E981A003B0F8C /* AppCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC1BAD72A3E981A003B0F8C /* AppCoordinatorTests.swift */; };
 		DAC7EF4B2A1FE48B0057BC4C /* TelaBViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC7EF4A2A1FE48B0057BC4C /* TelaBViewModelTests.swift */; };
 		DAC7EF4D2A1FE8E70057BC4C /* TelaBViewModelOutputSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC7EF4C2A1FE8E70057BC4C /* TelaBViewModelOutputSpy.swift */; };
 		DACDE87D2A2FDED40017536E /* TelaBViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACDE87C2A2FDED40017536E /* TelaBViewControllerTests.swift */; };
@@ -67,6 +69,8 @@
 		DABC41702A1D827000B0F55C /* SampleTest1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleTest1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DABC417F2A1D894200B0F55C /* TelaAViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaAViewControllerTests.swift; sourceTree = "<group>"; };
 		DABE4D332A2B71CF003AC7E1 /* TelaBViewControllerTestsUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaBViewControllerTestsUI.swift; sourceTree = "<group>"; };
+		DAC1BAD42A3E9185003B0F8C /* MockCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCoordinator.swift; sourceTree = "<group>"; };
+		DAC1BAD72A3E981A003B0F8C /* AppCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorTests.swift; sourceTree = "<group>"; };
 		DAC7EF4A2A1FE48B0057BC4C /* TelaBViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaBViewModelTests.swift; sourceTree = "<group>"; };
 		DAC7EF4C2A1FE8E70057BC4C /* TelaBViewModelOutputSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaBViewModelOutputSpy.swift; sourceTree = "<group>"; };
 		DACDE87C2A2FDED40017536E /* TelaBViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaBViewControllerTests.swift; sourceTree = "<group>"; };
@@ -180,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				DA124D6C2A214F4A00166839 /* SpyNavigationController.swift */,
+				DAC1BAD42A3E9185003B0F8C /* MockCoordinator.swift */,
 			);
 			path = Doubles;
 			sourceTree = "<group>";
@@ -204,6 +209,7 @@
 		DABC41712A1D827000B0F55C /* SampleTest1Tests */ = {
 			isa = PBXGroup;
 			children = (
+				DAC1BAD62A3E97D3003B0F8C /* Coordinator */,
 				DA626DAE2A296D1F0085166A /* TestsUI */,
 				DA124D6B2A214F2300166839 /* Doubles */,
 				DABC417C2A1D88E900B0F55C /* TelaA */,
@@ -238,6 +244,14 @@
 				DABE4D332A2B71CF003AC7E1 /* TelaBViewControllerTestsUI.swift */,
 			);
 			path = TelaB;
+			sourceTree = "<group>";
+		};
+		DAC1BAD62A3E97D3003B0F8C /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				DAC1BAD72A3E981A003B0F8C /* AppCoordinatorTests.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 		DAC7EF4E2A200E310057BC4C /* Doubles */ = {
@@ -457,6 +471,8 @@
 				DABC41802A1D894200B0F55C /* TelaAViewControllerTests.swift in Sources */,
 				DAC7EF4B2A1FE48B0057BC4C /* TelaBViewModelTests.swift in Sources */,
 				DA626DB12A296D450085166A /* TelaAViewControllerTestsUI.swift in Sources */,
+				DAC1BAD52A3E9185003B0F8C /* MockCoordinator.swift in Sources */,
+				DAC1BAD82A3E981A003B0F8C /* AppCoordinatorTests.swift in Sources */,
 				DACDE87F2A2FDF4D0017536E /* TelaBViewModelInputSpy.swift in Sources */,
 				DAE4EA322A1E7E2800DD0F39 /* TelaAViewModelTests.swift in Sources */,
 				DAE4EA342A1E9C4400DD0F39 /* TelaAViewModelOutputSpy.swift in Sources */,

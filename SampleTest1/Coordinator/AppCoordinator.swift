@@ -8,13 +8,13 @@
 import UIKit
 
 protocol Coordinator {
-    var childCoordinators: [Coordinator] { get }
+    //var childCoordinators: [Coordinator] { get }
     func start()
 }
 
 final class AppCoordinator: Coordinator {
     
-    private(set) var childCoordinators: [Coordinator] = []
+   // private(set) var childCoordinators: [Coordinator] = []
     private let window: UIWindow
     
     init(window: UIWindow) {
@@ -23,10 +23,9 @@ final class AppCoordinator: Coordinator {
     
     func start() {
         let naviagtionController = UINavigationController()
-        
         let telaACoordinator = TelaACoordinator(navigationController: naviagtionController)
         
-        childCoordinators.append(telaACoordinator)
+        //childCoordinators.append(telaACoordinator)
         telaACoordinator.start()
         
         window.rootViewController = naviagtionController

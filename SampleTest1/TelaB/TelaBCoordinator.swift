@@ -9,7 +9,7 @@ import UIKit
 
 final class TelaBCoordinator: Coordinator {
     
-    private(set) var childCoordinators: [Coordinator] = []
+    //private(set) var childCoordinators: [Coordinator] = []
     private(set) var parameter: String
     private let navigationController: UINavigationController
     

@@ -30,10 +30,18 @@ final class TelaAViewControllerTests: XCTestCase {
         XCTAssertTrue(delegateSpy.checkNavigateToScreenB)
     }
     
-    func test_naviagationController() {
-        let spy = SpyNavigationController(rootViewController: sut)
-        sut.navigateToScreenB(with: "")
-        XCTAssertTrue(spy.pushViewController is TelaBViewController)
+//    func test_naviagationController() {
+//        let spy = SpyNavigationController(rootViewController: sut)
+//        sut.navigateToScreenB(with: "")
+//        XCTAssertTrue(spy.pushViewController is TelaBViewController)
+//    }
+    
+    func test_navigation_telaACooordinator() {
+        let navigation = UINavigationController()
+        let coordinator = TelaACoordinator(navigationController: navigation)
+        coordinator.startTelaB(parameter: "")
+        
+        XCTAssertTrue(navigation.topViewController is TelaBViewController)
     }
     
     func test_poupUp_showAlert() {

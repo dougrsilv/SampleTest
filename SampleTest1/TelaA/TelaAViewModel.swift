@@ -22,7 +22,7 @@ protocol TelaAViewModelOutput: AnyObject {
 final class TelaAViewModel: TelaAViewModelInput {
 
     weak var delegate: TelaAViewModelOutput?
-    weak var coordinator: TelaACoordinator?
+    var coordinator: TelaACoordinator?
 
     // MARK: - Methods
     
