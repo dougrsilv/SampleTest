@@ -11,6 +11,7 @@ protocol TelaAViewModelInput {
     var delegate: TelaAViewModelOutput? { get set }
 
     func check(message: String?)
+    func navigation(parameter: String)
 }
 
 protocol TelaAViewModelOutput: AnyObject {
@@ -21,8 +22,13 @@ protocol TelaAViewModelOutput: AnyObject {
 final class TelaAViewModel: TelaAViewModelInput {
 
     weak var delegate: TelaAViewModelOutput?
+    var coordinator: TelaACoordinator?
 
     // MARK: - Methods
+    
+    func navigation(parameter: String) {
+        coordinator?.startTelaB(parameter: parameter)
+    }
 
     func check(message: String?) {
         guard let message, !message.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty else {

@@ -107,10 +107,7 @@ class TelaAViewController: UIViewController, TelaAViewModelOutput {
     }
 
     func navigateToScreenB(with message: String) {
-        let viewModel = TelaBViewModel(message: message)
-        let viewController = TelaBViewController(viewModel: viewModel)
-        navigationController?.pushViewController(viewController, animated: true)
+        viewModel.navigation(parameter: message)
     }
-
 }
 
