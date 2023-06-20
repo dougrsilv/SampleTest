@@ -37,11 +37,11 @@ final class TelaAViewControllerTests: XCTestCase {
 //    }
     
     func test_navigation_telaACooordinator() {
-        let navigation = UINavigationController()
-        let coordinator = TelaACoordinator(navigationController: navigation)
+        let spy = SpyNavigationController(rootViewController: sut)
+        let coordinator = TelaACoordinator(navigationController: spy)
         coordinator.startTelaB(parameter: "")
         
-        XCTAssertTrue(navigation.topViewController is TelaBViewController)
+        XCTAssertTrue(spy.pushViewController is TelaBViewController)
     }
     
     func test_poupUp_showAlert() {
